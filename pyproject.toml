@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "CS50"
+version = "0.1.0"
+description = "Solution to cs50"
+authors = ["Skye-ye <saber.ap.saikou@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+check50 = "^3.3.11"
+style50 = "^2.10.4"
+submit50 = "^3.1.5"
+python-magic = "^0.4.27"
+pyfiglet = "^1.0.2"
+py3-tts = "^3.5"
+pyttsx3 = "^2.90"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

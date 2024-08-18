@@ -1,0 +1,13 @@
+# Ignore all executables
+# This ignores all files without an extension
+*
+!*.*
+!*/
+
+.DS_Store
+.vscode
+*.dSYM/
+
+# But don't ignore .gitignore
+!.gitignore
+
